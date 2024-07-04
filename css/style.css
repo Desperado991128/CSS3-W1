@@ -1,0 +1,91 @@
+/* Styles for the body */
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 115%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Styles for the header */
+header {
+    background-color: #efe6e6;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Styles for the nav */
+nav {
+    background-color: #c23d3d;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+}
+
+nav a:hover {
+    color: #007BFF;
+}
+
+/* Styles for the main content */
+main {
+    background-color: #e0e0e0;
+    font-size: 100%;
+    padding: 20px;
+}
+
+/* Styles for the footer */
+footer {
+    background-color: #4762b3;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Styles for list items */
+li {
+    display: inline;
+    width: auto;
+}
+
+/* Styles for headings */
+h1 {
+    text-align: center;
+    font-family: 'Georgia', serif;
+    color: #295360;
+}
+
+/* Styles for paragraphs */
+p {
+    line-height: 1.5;
+    margin: 10px 0;
+}
+
+/* Gallery container */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+    padding: 20px;
+    background-color: #fff; /* Optional: background color for the gallery */
+}
+
+/* Gallery images */
+.gallery img {
+    width: 100%;
+    height: auto;
+    border: 2px solid #ccc;
+    object-fit: cover; /* Ensures the image covers the specified area */
+}
